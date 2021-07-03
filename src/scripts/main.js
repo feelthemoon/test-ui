@@ -27,6 +27,6 @@ document.addEventListener("keydown", (e) => {
 
 document.getElementById("order").addEventListener("click", () => {
   modal.classList.add("show");
-  window.scrollTo(0, 200);
+  window.scrollTo(0, 150);
   body.classList.add("modal-open");
 });
