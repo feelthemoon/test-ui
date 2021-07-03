@@ -6,7 +6,7 @@ module.exports = {
   entry: "./src/scripts/main.js",
   output: {
     filename: "bundle.[chunkhash].js",
-    path: path.resolve(__dirname, "public"),
+    path: path.resolve(__dirname, "docs"),
   },
   devServer: {
     contentBase: path.join(__dirname, "dist"),
